@@ -2,9 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 export const App = () => {
-	const currentYear = new Date().getFullYear();
+	const currentYear = new Date().getFullYear(); /* Декларативный стиль */
 
 	return (
+		/* Императивный + декларативный стиль.
+	Описываем как должен выглядить элемент страницы с использованием HTML разметки*/
 		<div className="App">
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +21,7 @@ export const App = () => {
 				>
 					Learn React
 				</a>
-				<p>{currentYear}</p>
+				<p>{currentYear}</p> /* Декларативный стиль */
 			</header>
 		</div>
 	);
