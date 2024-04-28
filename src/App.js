@@ -1,14 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-// import { Date } from './components/date';
-
-// export const Date = (date) => {
-// 	const currentYear = new Date().getFullYear();
-// 	return currentYear;
 
 export const App = () => {
-	const currentYear = new Date().getFullYear();
-
 	return (
 		<div className="App">
 			<header className="App-header">
@@ -24,7 +17,6 @@ export const App = () => {
 				>
 					Learn React
 				</a>
-				<p>{currentYear}</p>
 			</header>
 		</div>
 	);
